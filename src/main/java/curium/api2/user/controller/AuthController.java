@@ -1,14 +1,14 @@
-package curium.api2.controllers;
+package curium.api2.user.controller;
 
-import curium.api2.models.ERole;
-import curium.api2.models.Role;
-import curium.api2.models.User;
+import curium.api2.user.models.ERole;
+import curium.api2.user.models.Role;
+import curium.api2.user.models.User;
 import curium.api2.payload.request.LoginRequest;
 import curium.api2.payload.request.SignupRequest;
 import curium.api2.payload.response.MessageResponse;
 import curium.api2.payload.response.UserInfoResponse;
-import curium.api2.repositories.RoleRepository;
-import curium.api2.repositories.UserRepository;
+import curium.api2.user.repository.RoleRepository;
+import curium.api2.user.repository.UserRepository;
 import curium.api2.security.jwt.JwtUtils;
 import curium.api2.security.services.UserDetailsImpl;
 import jakarta.validation.Valid;

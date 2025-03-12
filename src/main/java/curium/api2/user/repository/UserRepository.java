@@ -1,6 +1,6 @@
-package curium.api2.repositories;
+package curium.api2.user.repository;
 
-import curium.api2.models.User;
+import curium.api2.user.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

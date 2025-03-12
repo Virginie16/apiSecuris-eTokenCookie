@@ -1,7 +1,7 @@
 package curium.api2.security.services;
 
-import curium.api2.models.User;
-import curium.api2.repositories.UserRepository;
+import curium.api2.user.models.User;
+import curium.api2.user.repository.UserRepository;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

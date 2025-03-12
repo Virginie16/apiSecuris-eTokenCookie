@@ -1,4 +1,4 @@
-package curium.api2.models;
+package curium.api2.user.models;
 
 import jakarta.persistence.*;
 

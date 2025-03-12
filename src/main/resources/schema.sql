@@ -19,3 +19,9 @@ CREATE TABLE user_roles (
 );
 
 INSERT INTO roles (name) VALUES ('ROLE_USER'), ('ROLE_MODERATOR'), ('ROLE_ADMIN');
+
+
+CREATE TABLE site_correspondance (
+                                     trigramme_site VARCHAR(10) PRIMARY KEY,
+                                     nom_site VARCHAR(100) NOT NULL
+);

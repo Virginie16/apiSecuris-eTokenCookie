@@ -1,7 +1,7 @@
 package curium.api2.security.services;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import curium.api2.models.User;
+import curium.api2.user.models.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

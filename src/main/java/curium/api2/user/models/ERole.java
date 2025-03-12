@@ -1,4 +1,4 @@
-package curium.api2.models;
+package curium.api2.user.models;
 
 public enum ERole {
 	ROLE_USER,
