@@ -1,4 +1,4 @@
-package curium.api2.lot.services;
+package curium.api2.select.services;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;

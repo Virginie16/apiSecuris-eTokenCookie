@@ -1,6 +1,6 @@
-package curium.api2.lot.repositories;
+package curium.api2.select.repositories;
 
-import curium.api2.lot.models.Site;
+import curium.api2.select.models.Site;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

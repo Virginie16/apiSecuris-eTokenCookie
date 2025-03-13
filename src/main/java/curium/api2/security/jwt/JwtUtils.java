@@ -51,7 +51,14 @@ public class JwtUtils {
 	}
 
 	public ResponseCookie getCleanJwtCookie() {
-		return ResponseCookie.from(jwtCookie, null).path("/").build();
+
+		return ResponseCookie.from(jwtCookie)
+				.path("/")
+				.maxAge(0)
+				.httpOnly(true)
+				.secure(false) // false en local, true en production avec HTTPS
+				.sameSite("Lax")
+				.build();
 
 	}
 

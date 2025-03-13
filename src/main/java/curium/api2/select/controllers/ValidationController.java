@@ -1,7 +1,7 @@
-package curium.api2.lot.controllers;
+package curium.api2.select.controllers;
 
-import curium.api2.lot.services.ProduitService;
-import curium.api2.lot.services.SiteService;
+import curium.api2.select.services.ProduitService;
+import curium.api2.select.services.SiteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

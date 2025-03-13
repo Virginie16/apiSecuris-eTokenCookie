@@ -1,7 +1,7 @@
-package curium.api2.lot.services;
+package curium.api2.select.services;
 
-import curium.api2.lot.models.Site;
-import curium.api2.lot.repositories.SiteRepository;
+import curium.api2.select.models.Site;
+import curium.api2.select.repositories.SiteRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
